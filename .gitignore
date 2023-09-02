@@ -1,0 +1,61 @@
+# Compiled byte code
+*.class
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Java files
+hs_err_pid*
+
+# Logs
+log/
+*.log
+
+# Temp files
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.savedState
+*.lastUpdated
+
+# Other tools
+*.hprof
+*.prof
+*.pyc
+
+# Directories that may contain sensitive data
+secrets/
+credentials/
+
+# Other
+*.ser
+*.cbin
